@@ -25,8 +25,8 @@ function App() {
             </div>
 
             <div className="group-buttons">
-              <Button name="assista agora" />
-              <Button name="assista o trailer" />
+              <Button name="assista agora" classe="now" />
+              <Button name="assista o trailer" classe=""/>
             </div>
           </div>
 

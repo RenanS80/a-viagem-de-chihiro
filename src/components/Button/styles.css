@@ -1,4 +1,4 @@
-.watch-trailer {
+.watch {
     display: inline-block;
     position: relative;
     padding: 8px 40px;
@@ -17,6 +17,24 @@
     line-height: 180%;
 }
 
-.watch-trailer:hover {
+.watch.now {
     background: var(--green);
+}
+
+.watch:hover {
+    background: var(--green);
+}
+
+.watch.now:hover {
+    border: 2px solid var(--white);
+}
+
+span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    -webkit-transform: skewX(15deg);
+    transform: skewX(15deg);
+
 }
