@@ -17,7 +17,7 @@ body {
     box-shadow: 26px 24px 90px rgba(31, 26, 51, 0.13);
     color: var(--white);
     font-family: 'Poppins', sans-serif;
-    height: 100vh;
+    height: 100%;
 }
 
 a {
