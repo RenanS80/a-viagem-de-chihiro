@@ -143,6 +143,10 @@ a {
 }
 
 @media (max-width: 1100px) {
+    body {
+        overflow: auto;
+    }
+    
     .main-container {
         flex-direction: column-reverse;
         width: 100%;
