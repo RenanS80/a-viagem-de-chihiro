@@ -77,10 +77,6 @@ a {
 
 
 /* --- MAIN --- */
-main {
-    height: calc(100vh - 100px);
-}
-
 .main-container {
     max-width: 1440px;
     height: 100%;
