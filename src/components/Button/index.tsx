@@ -9,7 +9,7 @@ type Props = {
 function Button({ name, classe }: Props) {
     return (
         <a
-            href={`${classe === "now" ? "https://www.netflix.com/br/title/60023642" : "https://www.youtube.com/watch?v=SgZI655GgHk"}`}
+            href={`${classe === "now" ? "https://www.netflix.com/br/title/60023642" : "https://www.youtube.com/watch?v=ByXuk9QqQkk"}`}
             className={`watch ${classe ? "now" : ""}`}
             role="button"
             target="_blank"
