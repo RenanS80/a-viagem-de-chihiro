@@ -1,15 +1,14 @@
 .watch {
     display: inline-block;
     position: relative;
-    padding: 8px 40px;
-    -webkit-transform: skewX(-15deg);
-    transform: skewX(-15deg);
+    padding: 14px 32px;
     -webkit-transition: .7s ease;
     transition: all .4s ease;
 
     background: transparent;
     color: var(--white);
-    border: 2px solid var(--green);
+    border: 2px solid var(--pink);
+    border-radius: 4px;
     
     text-transform: uppercase;
     font-weight: 500;
@@ -18,23 +17,23 @@
 }
 
 .watch.now {
-    background: var(--green);
+    background: var(--pink);
+    color: var(--black);
 }
 
 .watch:hover {
-    background: var(--green);
+    background: var(--pink);
 }
 
 .watch.now:hover {
-    border: 2px solid var(--white);
+    opacity: 0.9;
 }
 
 span {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 10px;
-
-    -webkit-transform: skewX(15deg);
-    transform: skewX(15deg);
-
 }
+
+

@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       
       <main>
-        <div className="main-container">
+        <div className="container">
           <div className="main-content">
             <div>
               <h3>Hayao Miyazaki</h3>
@@ -25,7 +25,7 @@ function App() {
             </div>
 
             <div className="group-buttons">
-              <Button name="assista agora" classe="now" />
+              <Button name="assistir agora" classe="now" />
               <Button name="assista o trailer" classe=""/>
             </div>
           </div>
